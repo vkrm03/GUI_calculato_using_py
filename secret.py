@@ -16,7 +16,7 @@ def secrets():
             except Exception as e:
                 messagebox.showinfo("Information", "Error occured while hiding: May be the error will be the file is in the same dir.")
 
-        destination_folder = r'E:\@_M I N\.hidden'
+        destination_folder = r'Destination_Folder'
         def choose_file():
             path = filedialog.askopenfilename(initialdir="/", title="Select File")
             if path:
